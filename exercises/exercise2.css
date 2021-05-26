@@ -1,0 +1,204 @@
+/*CSS Flags*/
+
+.flag {
+	display: grid;
+	background-color: orange; /*For Testing*/
+}
+
+
+
+/*Sweden Flag Start*/
+.flag-sweden {
+	width: 480px;
+	height: 300px;
+	border: 1px solid black;
+	grid-template-columns: 150px 60px 270px;
+	grid-template-rows: 120px 60px 120px;
+}
+
+.flag-sweden div { /*For Testing*/
+	/*border: 1px solid black;*/
+}
+
+.grid-item-sblue-1 {
+	background-color: rgb(23, 97, 176);
+}
+.grid-item-yellow-1 {
+	background-color: rgb(239, 211, 0);
+}
+
+.grid-item-sblue-2 {
+	background-color: rgb(23, 97, 176);
+}
+
+.grid-item-yellow-2 {
+	background-color: rgb(239, 211, 0);
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+/*Sweden Flag End*/
+
+/*Finland Flag Start*/
+.flag-finland {
+	width: 540px;
+	height: 390px;
+	border: 1px solid black;
+	grid-template-columns: 150px 90px 300px;
+	grid-template-rows: 150px 90px 150px;
+}
+
+.grid-item-white-1 {
+	background-color: white;
+}
+.grid-item-fblue-1 {
+	background-color: rgb(24, 94, 181);
+}
+
+.grid-item-fblue-2 {
+	background-color: rgb(24, 94, 181);	
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+.grid-item-white-2 {
+	background-color: white;
+
+}
+/*Finland Flag End*/
+
+/*Denmark Flag Start*/
+.flag-denmark {
+	width: 510px;
+	height: 420px;
+	border: 1px solid black;
+	grid-template-columns: 180px 60px 270px;
+	grid-template-rows: 180px 60px 180px;
+}
+
+.grid-item-red-1 {
+	background-color: red;
+}
+
+.grid-item-dwhite-1 {
+	background-color: white;
+}
+
+.grid-item-red-2 {
+	background-color: red;	
+}
+
+.grid-item-dwhite-2 {
+	background-color: white;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+/*Denmark Flag End*/
+
+/*Iceland Flag Start*/
+.flag-iceland {
+	width: 500px;
+	height: 360px;
+	border: 1px solid black;
+	grid-template-columns: 140px 20px 40px 20px 280px;
+	grid-template-rows: 140px 20px 40px 20px 140px;
+}
+
+.grid-item-iblue-1 {
+	background-color: rgb(15, 102, 209);
+}
+
+.grid-item-iwhite-1 {
+	background-color: white;
+}
+
+.grid-item-ired-1 {
+	background-color: red;	
+}
+
+.grid-item-iblue-2 {
+	background-color: rgb(15, 102, 209);
+}
+
+.grid-item-iwhite-2 {
+	background-color: white;
+}
+
+.grid-item-iwhite-3 {
+	background-color: white;
+}
+
+.grid-item-ired-2 {
+	background-color: red;	
+}
+
+.grid-item-iwhite-4 {
+	background-color: white;
+}
+
+.grid-item-ired-3 {
+	background-color: red;
+	grid-column-start: 1;
+	grid-column-end: span 5;
+}
+/*Iceland Flag End*/
+
+/*Greece Flag Start*/
+
+.flag-original div { /*For Testing*/
+/*	border: 1px solid black;*/
+}
+
+.flag-original {
+	width: 500px;
+	height: 360px;
+	border: 1px solid black;
+	grid-template-columns: 80px 40px 80px 100px 80px 40px 80px;
+	grid-template-rows: repeat(9, 40px);
+}
+
+.grid-item-oyellow-1 {
+	background-color: rgb(200, 186, 10);
+}
+
+.grid-item-owhite-1 {
+	background-color: white;
+}
+
+.grid-item-ored-1 {
+	background-color: rgb(124, 43, 44);
+	grid-column-start: 4;
+	grid-column-end: span 7;
+}
+
+.grid-item-owhite-2 {
+	background-color: white;	
+	grid-column-start: 4;
+	grid-column-end: span 7;
+}
+
+.grid-item-owhite-3 {
+	background-color: white;
+	grid-column-start: 1;
+	grid-column-end: span 3;
+}
+
+.grid-item-ored-3 {
+	background-color: rgb(124, 43, 44);
+}
+
+.grid-item-owhite-4 {
+	background-color: white;
+	grid-column-start: 1;
+	grid-column-end: span 4;
+}
+
+.grid-item-ored-2 {
+	background-color: rgb(124, 43, 44);
+	grid-column-start: 1;
+	grid-column-end: span 4;
+}
+
+.grid-item-owhite-5 {
+	background-color: white;
+}
+/*Original Flag End*/
