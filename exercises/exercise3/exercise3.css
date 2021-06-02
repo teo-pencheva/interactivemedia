@@ -1,0 +1,124 @@
+/*Exercise 3: CSS Fonts and Animation*/
+
+/*Main SetUp & Self-hosted Font*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+@font-face {
+	font-family: 'AirAmerica-Regular';
+	src: url('airamerica-regular-webfont.woff2') format('woff2'),
+    	url('airamerica-regular-webfont.woff') format('woff');
+}
+
+body {
+	margin: 50px 100px;
+	background-color: #EEEEEE;
+	font-size: 12px;
+}
+
+
+/*Defining Grid*/
+.grid {
+	display: grid;
+	grid-template-columns: 100%;
+	grid-template-rows: 25% 25% 25% 25%;
+	height: 1000px;
+}
+
+
+/*Header SetUp*/
+h1 {
+	color: #000000;
+	text-align: center;
+	font-size: 5vw;
+}
+
+h2 {
+	position: relative;
+	text-align: center;
+	font-style: normal;
+	font-size: 5vw;
+	padding: 10%;
+}
+
+
+/*Animating Attract Header*/
+@keyframes magnet {
+	from {
+		letter-spacing: 2em;
+	}
+	to {
+		letter-spacing: -0.5em;
+	}
+}
+
+.attract {
+	font-family: sweet-gothic, times new roman, sans-serif;
+	font-weight: 500;
+	color: #FF1D00;
+	letter-spacing: 2em;
+}
+
+.attract:hover {
+	animation: magnet;
+	animation-duration: 3s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+/*Animating Disappear Header*/
+@keyframes disappearing {
+	from {
+		color: #FFD100;
+		opacity: 1;
+	}
+	to {
+		color: #EEEEEE;
+		opacity: 0;
+	}
+}
+
+.disappear {
+	font-family: 'Mate SC', helvetica, sans-serif;
+	font-weight: 400;
+	color: #FFD100;
+}
+
+.disappear:hover {
+	animation: disappearing;
+	animation-duration: 7s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+}
+
+
+/*Animating Freeze Header*/
+@keyframes moving {
+	from{
+		transform: translateY(0px);
+	}
+	to {
+		transform: translateY(-30px);
+	}
+}
+
+.freeze {
+	font-family: 'AirAmerica-Regular', georgia, sans-serif;
+	font-weight: 400;
+	color: #FF8200; 
+	animation: moving;
+	animation-duration: 0.5s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+
+	
+}
+
+.freeze:hover {
+	animation-play-state: paused;
+	color: #0084FF;
+	transition: 2s;
+}
