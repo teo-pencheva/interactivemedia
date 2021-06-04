@@ -6,8 +6,13 @@ the letter (a), the row (1), the column(1), and the first triangle(d).
 One section of the star shape is made up of two overlapping triangles (d and dd).
 
 If a row or column is labelled _2 it means that the shape is located halfway
-in-between two.*/
+in-between two rows.
 
+If there is an o located in the name, it means it is overlapping with another shape.*/
+
+
+
+/*Main SetUp*/
 .letter {
 	width: 300px;
 	height: 300px;
@@ -209,6 +214,7 @@ in-between two.*/
 	border: 3px solid black;
 	top: 60px;
 	left: 90px;
+	background-color: black;
 }
 
 .a-stroke-2 {
@@ -216,6 +222,7 @@ in-between two.*/
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
+	background-color: black;
 	top: 147px;
 	left: 90px;
 }
@@ -448,6 +455,7 @@ in-between two.*/
 /*strokes*/
 .b-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -457,6 +465,7 @@ in-between two.*/
 
 .b-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 180px;
 	height: 0;
 	border: 3px solid black;
@@ -466,6 +475,7 @@ in-between two.*/
 
 .b-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -475,6 +485,7 @@ in-between two.*/
 
 .b-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -484,6 +495,7 @@ in-between two.*/
 
 .b-stroke-5 {
 	position: absolute;
+	background-color: black;
 	width: 180px;
 	height: 0;
 	border: 3px solid black;
@@ -640,6 +652,7 @@ in-between two.*/
 /*strokes*/
 .c-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -649,6 +662,7 @@ in-between two.*/
 
 .c-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -658,6 +672,7 @@ in-between two.*/
 
 .c-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -803,6 +818,7 @@ in-between two.*/
 /*strokes*/
 .d-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 90px;
 	height: 0;
 	border: 3px solid black;
@@ -812,6 +828,7 @@ in-between two.*/
 
 .d-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -821,6 +838,7 @@ in-between two.*/
 
 .d-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -830,6 +848,7 @@ in-between two.*/
 
 .d-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 90px;
 	height: 0;
 	border: 3px solid black;
@@ -1015,6 +1034,7 @@ in-between two.*/
 /*strokes*/
 .e-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -1024,6 +1044,7 @@ in-between two.*/
 
 .e-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 70px;
 	height: 0;
 	border: 3px solid black;
@@ -1033,6 +1054,7 @@ in-between two.*/
 
 .e-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 40px;
 	border: 3px solid black;
@@ -1042,6 +1064,7 @@ in-between two.*/
 
 .e-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -1203,6 +1226,7 @@ in-between two.*/
 /*strokes*/
 .f-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -1212,6 +1236,7 @@ in-between two.*/
 
 .f-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 70px;
 	height: 0;
 	border: 3px solid black;
@@ -1221,6 +1246,7 @@ in-between two.*/
 
 .f-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 40px;
 	border: 3px solid black;
@@ -1405,6 +1431,7 @@ in-between two.*/
 /*strokes*/
 .g-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -1414,6 +1441,7 @@ in-between two.*/
 
 .g-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -1423,6 +1451,7 @@ in-between two.*/
 
 .g-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -1432,6 +1461,7 @@ in-between two.*/
 
 .g-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 40px;
 	border: 3px solid black;
@@ -1589,6 +1619,7 @@ in-between two.*/
 /*strokes*/
 .h-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 40px;
 	height: 0;
 	border: 3px solid black;
@@ -1598,6 +1629,7 @@ in-between two.*/
 
 .h-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 180px;
 	border: 3px solid black;
@@ -1607,6 +1639,7 @@ in-between two.*/
 
 .h-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 180px;
 	height: 0;
 	border: 3px solid black;
@@ -1616,6 +1649,7 @@ in-between two.*/
 
 .h-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 180px;
 	border: 3px solid black;
@@ -1625,6 +1659,7 @@ in-between two.*/
 
 .h-stroke-5 {
 	position: absolute;
+	background-color: black;
 	width: 40px;
 	height: 0;
 	border: 3px solid black;
@@ -1634,6 +1669,7 @@ in-between two.*/
 
 .h-stroke-6 {
 	position: absolute;
+	background-color: black;
 	width: 40px;
 	height: 0;
 	border: 3px solid black;
@@ -1844,6 +1880,7 @@ in-between two.*/
 /*strokes*/
 .i-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -1963,6 +2000,7 @@ in-between two.*/
 /*strokes*/
 .j-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -1972,6 +2010,7 @@ in-between two.*/
 
 .j-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 80px;
 	height: 0px;
 	border: 3px solid black;
@@ -2155,6 +2194,7 @@ in-between two.*/
 /*strokes*/
 .k-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -2164,6 +2204,7 @@ in-between two.*/
 
 .k-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 50px;
 	height: 0;
 	border: 3px solid black;
@@ -2282,6 +2323,7 @@ in-between two.*/
 /*strokes*/
 .l-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -2291,6 +2333,7 @@ in-between two.*/
 
 .l-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -2448,6 +2491,7 @@ in-between two.*/
 /*strokes*/
 .m-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -2457,6 +2501,7 @@ in-between two.*/
 
 .m-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -2611,6 +2656,7 @@ in-between two.*/
 /*strokes*/
 .n-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -2620,6 +2666,7 @@ in-between two.*/
 
 .n-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -2776,6 +2823,7 @@ in-between two.*/
 /*strokes*/
 .o-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -2785,6 +2833,7 @@ in-between two.*/
 
 .o-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -2794,6 +2843,7 @@ in-between two.*/
 
 .o-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -2803,6 +2853,7 @@ in-between two.*/
 
 .o-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -2977,6 +3028,7 @@ in-between two.*/
 /*strokes*/
 .p-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -2986,6 +3038,7 @@ in-between two.*/
 
 .p-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3194,6 +3247,7 @@ in-between two.*/
 /*strokes*/
 .q-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3203,6 +3257,7 @@ in-between two.*/
 
 .q-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -3212,6 +3267,7 @@ in-between two.*/
 
 .q-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3221,6 +3277,7 @@ in-between two.*/
 
 .q-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -3405,6 +3462,7 @@ in-between two.*/
 /*strokes*/
 .r-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -3414,6 +3472,7 @@ in-between two.*/
 
 .r-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3423,6 +3482,7 @@ in-between two.*/
 
 .r-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3609,6 +3669,7 @@ in-between two.*/
 /*strokes*/
 .s-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3618,6 +3679,7 @@ in-between two.*/
 
 .s-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 174px;
 	height: 0;
 	border: 3px solid black;
@@ -3627,6 +3689,7 @@ in-between two.*/
 
 .s-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3769,6 +3832,7 @@ in-between two.*/
 /*strokes*/
 .t-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 120px;
 	border: 3px solid black;
@@ -3925,6 +3989,7 @@ in-between two.*/
 /*strokes*/
 .u-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -3934,6 +3999,7 @@ in-between two.*/
 
 .u-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -3943,6 +4009,7 @@ in-between two.*/
 
 .u-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -4204,6 +4271,7 @@ in-between two.*/
 /*strokes*/
 .w-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -4213,6 +4281,7 @@ in-between two.*/
 
 .w-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 60px;
 	border: 3px solid black;
@@ -4222,6 +4291,7 @@ in-between two.*/
 
 .w-stroke-3 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 174px;
 	border: 3px solid black;
@@ -4231,6 +4301,7 @@ in-between two.*/
 
 .w-stroke-4 {
 	position: absolute;
+	background-color: black;
 	width: 40px;
 	height: 0;
 	border: 3px solid black;
@@ -4596,6 +4667,7 @@ in-between two.*/
 /*strokes*/
 .y-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 0;
 	height: 90px;
 	border: 3px solid black;
@@ -4619,24 +4691,25 @@ in-between two.*/
 .z-1-1-d { /*bottom right corner*/
 	border-bottom: 60px solid black;
 	border-left: 25px solid transparent;
-	left: 35px;
+	left: 65px;
 }
 .z-1-1-dd {
 	border-right: 60px solid black;
 	border-top: 25px solid transparent;
 	top: 35px;
+	left: 30px;
 }
 
 .z-1-2-d { /*bottom left corner*/
 	border-bottom: 60px solid black;
 	border-right: 25px solid transparent;
-	left: 60px;
+	left: 90px;
 }
 .z-1-2-dd {
 	border-left: 60px solid black;
 	border-top: 25px solid transparent;
 	top: 35px;
-	left: 60px;
+	left: 90px;
 }
 
 
@@ -4645,26 +4718,26 @@ in-between two.*/
 	border-right: 60px solid black;
 	border-bottom: 25px solid transparent;
 	top: 60px;
-	left: 0px;
+	left: 30px;
 }
 .z-2-1-dd {
 	border-top: 60px solid black;
 	border-left: 25px solid transparent;
 	top: 60px;
-	left: 35px;
+	left: 65px;
 }
 
 .z-2-2-d { /*top left corner*/
 	border-left: 60px solid black;
 	border-bottom: 25px solid transparent;
 	top: 60px;
-	left: 60px;
+	left: 90px;
 }
 .z-2-2-dd {
 	border-top: 60px solid black;
 	border-right: 25px solid transparent;
 	top: 60px;
-	left: 60px;
+	left: 90px;
 }
 
 .z-2-4-d { /*top right corner*/
@@ -4765,6 +4838,7 @@ in-between two.*/
 /*strokes*/
 .z-stroke-1 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;
@@ -4774,6 +4848,7 @@ in-between two.*/
 
 .z-stroke-2 {
 	position: absolute;
+	background-color: black;
 	width: 120px;
 	height: 0;
 	border: 3px solid black;

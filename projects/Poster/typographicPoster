@@ -1,0 +1,25 @@
+/*Typographic Poster*/
+
+/*Main SetUp*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 50px 100px;
+	background-color: #EC6447;
+	font-size: 12px;
+}
+
+.title {
+	width: 1000px;
+	border: 1px solid black;
+	padding: 50px;
+	margin: 20px;
+}
+
+h1 {
+	color: red;
+}
+
