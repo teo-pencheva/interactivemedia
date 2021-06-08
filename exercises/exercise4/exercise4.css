@@ -1,0 +1,88 @@
+/*Exercise 4: IFrames*/
+
+/*Note: My topic is stated at the bottom of
+this css file*/
+
+
+/*Main SetUp*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	background-color: #8AC7E1;
+	font-size: 12px;
+}
+
+.title{
+	font-size: 3vw;
+	text-align: center;
+}
+
+/*Regular IFrame Design*/
+.frames {
+	margin-left: 7%;
+}
+
+#map {
+	width: 30%; 
+	height: 350px;
+}
+
+#drought {
+	width: 30%; 
+	height: 350px;
+}
+
+#sky {
+	width: 30%; 
+	height: 350px;
+}
+
+#color {
+	width: 45%; 
+	height: 350px;
+}
+
+#video  {
+	width: 45%; 
+	height: 350px;
+}
+
+/*Responsive (mobile) Design*/
+@media (max-width:991px){
+	.title {
+	font-size: 5vw;
+	text-align: center;
+	}
+
+	#map {
+	width: 45%; 
+	height: 200px;
+	}
+
+	#drought {
+		width: 45%; 
+		height: 200px;
+	}
+
+	#sky {
+		width: 45%; 
+		height: 200px;
+	}
+
+	#color {
+		width: 45%; 
+		height: 200px;
+	}
+
+	#video  {
+		width: 90%; 
+		height: 200px;
+	}
+}
+
+/*MY TOPIC IS: THE SUN*/
