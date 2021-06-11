@@ -1,0 +1,43 @@
+/*Reading 4 Example*/
+
+/*Main SetUp*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 50px 100px;
+	font-size: 12px;
+	background-color: #FFC7D6;
+}
+
+/*Header SetUp*/
+h2 {
+	position: relative;
+	text-align: center;
+	font-style: normal;
+	font-size: 9vw;
+	padding: 10%;
+}
+
+/*Animating Disappear Header*/
+@keyframes disappearing {
+	from {
+		color: #FFD100;
+		opacity: 1;
+	}
+	to {
+		color: transparent;
+		opacity: 0;
+	}
+}
+
+.disappear {
+	font-family: New Times Roman, sans-serif;
+	font-weight: 400;
+	color: #FFD100;
+	animation: disappearing;
+	animation-duration: 0.7s;
+	animation-fill-mode: forwards;
+}
