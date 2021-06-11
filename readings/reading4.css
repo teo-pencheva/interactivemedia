@@ -7,7 +7,7 @@
 }
 
 body {
-	margin: 50px 100px;
+	margin: 8%
 	font-size: 12px;
 	background-color: #FFC7D6;
 }
@@ -17,7 +17,7 @@ h2 {
 	position: relative;
 	text-align: center;
 	font-style: normal;
-	font-size: 9vw;
+	font-size: 3vw;
 	padding: 10%;
 }
 
@@ -38,6 +38,6 @@ h2 {
 	font-weight: 400;
 	color: #FFD100;
 	animation: disappearing;
-	animation-duration: 0.7s;
+	animation-duration: 70s;
 	animation-fill-mode: forwards;
 }
