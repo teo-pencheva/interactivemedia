@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Interactive Elements Process</title>
+  </head>
+
+  <body>
+    <div class="process">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Interactive Elements Process</h1>
+        </div>
+        <!-- End of title -->
+
+        <!-- Start of content -->
+        <div class="content">
+            <!-- Start of a section: IDEAS -->
+            <div class="section">
+                <h2>Beginning Inspiration</h2>
+                <p>
+                    When I started this project, I was unsure what type of aesthetic I wanted to pursue. I had seen a lot of inspirational works online and there were just too many choices. The first style I considered was somewhat abstract and odd. While there was cohesion between the subjects, the colours and layering were almost messy. I really wanted to create something similar to these aesthetics, a mix between actual images of real objects and artistic or code-generated shapes and animations. However, when I began my sketches, I realized that not only did I not have a purpose to this website, I was stuck on recreating these pieces rather than creating my own. I have no work around for these situations, so I had to abandon this idea to move onto the next.
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/sparkles.jpg" width="45%">
+                  <img src="images/mess.png" width="45%">
+                  <img src="images/coma.jpg" width="45%">
+                  <img src="images/bacon.jpg" width="45%">
+                  <a href="https://vrrue.tumblr.com/post/644860578224029696/ode-to-my-journal-drella-here-we-are-hanging-out"><br>Image Source</a>
+                  <a href="http://www.artnet.com/artists/markus-oehlen/2"><br>Image Source</a>
+                  <a href="https://thenewcoma.tumblr.com/post/631894934187884544/all-night-long"><br>Image Source</a>
+                  <a href="https://www.moma.org/collection/works/79204"><br>Image Source</a>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>More Inspiration</h2>
+                <p>
+                    The next idea that influenced me was repetition. I had recently found many artworks that were created through repetitive letters or shapes. Though I was still unsure of the purpose or how I would implement my element, drag, into my website, the one thing I knew I wanted to avoid was a brush type website, where you drag around the cursor to draw on the page. I personally, did not like this idea, so I kept searching for something else. That’s when I found the dollhouse.
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/ah.jpg" width="45%">
+                  <img src="images/meaning.jpg" width="45%">
+                  <img src="images/sky.jpg" width="45%">
+                  <img src="images/desert.jpg" width="45%">
+                  <a href="https://www.instagram.com/p/Bzh8b8WIVJy/"><br>Image Source</a>
+                  <a href="https://asense0fnothing.tumblr.com/post/627843995632091136/ryan-carl-layers-of-meaning"><br>Image Source</a>
+                  <a href="https://www.instagram.com/p/CHZ-grglrbJ/?utm_source=ig_web_copy_link"><br>Image Source</a>
+                  <a href="https://daygallery.com.au/catalog/shane-smithers-where-sky-meets-earth"><br>Image Source</a>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>The Dollhouse</h2>
+                <p>
+                    The photos captured a real, life-size version of a dollhouse, lit up with different colours, and decorated with normal furniture. While I also wanted to avoid making a decorating simulation, I was really interest in the abstract form of the dollhouse. Separate rooms, blank rectangles, almost like a puzzle. Eventually, I recalled my recent inspiration from the CSS Typeface project, where I was enamoured with the human experience.             
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/dollhouse1.jpg" width="45%">
+                  <img src="images/dollhouse2.jpg" width="45%">
+                  <a href="https://nsi-canada.ca/2015/03/the-dollhouse/"><br>Image Source</a>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Concept</h2>
+                <p>
+                    I decided to combine these two ideas in creating separate parts of a whole face, leaving the user to “fix” it as they wanted to. However, I wanted to play around with the concept of interactivity and make the user question whether or not they should be messing with the face in the first place. Whenever a part would be dragged around on screen, it would react appropriately, as if it was being disturbed in real life. For instance, if the user continuously drags around the ear, it leaves the impression that it’s in pain and even begins to bleed at one point. What exactly are is the user doing to this face? Is it worth their entertainment?             
+                </p>
+
+                <h2>Beginning Process</h2>
+                <p>
+                    I started out by making a quick model by hand so I could get a sense of which facial features I wanted to include. I choose both eyes, the brain, nose, lips, one ear, and the neck. After getting some input from others, I decided to make the neck double in width to make it easier to identify. I also decided to go for a pixel style when creating the images because I didn’t want to overcomplicate the idea nor the appearance of this project. For most, I created a second image to show a reaction from the interactivity. For instance, when dragging around the eyes, they close shut as if the user is literally poking them in the eye.        
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/face.jpg" width="65%">
+                  <img src="images/neck.jpg" width="45%">
+                  <img src="images/neck2.jpg" width="45%">
+                  <img src="images/eye.jpg" width="65%">
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Coding Process</h2>
+                <p>
+                    I first began to code the images. I wanted them to appear in random positions within the inner window so that the user is forced to move around the individual pieces. This is also where I decided to focus my energy into incorporating different jquery plugins and libraries. During some research, I discovered several that catered towards my goals in this project. I started by implementing the draggable interaction onto my images. Then, I worked from one effect to the next so that when the image is dragged, something happens, and once the user stops, everything stops and resets. I created a different reaction for each facial feature. First, the lips slowly begin to fog up the screen and audio of breathing slowly gets louder. The nose sniffles and coughs. The neck shakes and laugh, causing all the other parts of the face to shake as well. The ear makes the screen pulsate redder and redder, while audio of a heartbeat plays louder, and eventually the ear begins to bleed. Both eyes shut and groan, while the screen slowly turns darker and grainier, imitating the feeling of shut eyes. Lastly, the brain begins to play a glitchy video of old TV bars while audio of a radio conversation plays, overlayed with white noise.      
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/website.png" width="80%">
+                  <img src="images/effect.png" width="80%">
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Problems</h2>
+                <p>
+                    There were many problems I ran into when making this process. I went back and forth on the pulsating effect for the ears, whether to use a border or create a vignette function. In the end, I made my own pngs to use as overlays at timed moments. For the brain, I had considered using the jquery plugin, mgGlitch, but it was lacking in the controls I needed to create my desired effect. There were also many moments where the facial features would collide and activate each other’s effects or audio clips. Or moments where I had to find a way to stop animations or timed reactions from continuing after the user stops dragging the part.  
+                </p>
+                <!-- End of a section -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Final Thoughts</h2>
+                <p>
+                    Overall, it was a long but interesting process in creating this interactive website.  
+                </p>
+                <!-- End of a section -->
+            </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>
