@@ -1,0 +1,40 @@
+/*Exercise 1*/
+
+/*Main SetUp*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+
+/*Text SetUp*/
+h1 {
+	text-align: center;
+}
+
+a {
+	font-size: 20px;
+	color: black;
+}
+
+a:hover {
+	color: #616161;
+}
+
+p {
+	margin-left: 7%;
+	margin-right: 7%;
+	text-align: left;
+}
+
+/*Image SetUp*/
+img {
+	width: 80%;
+	height: 80%;
+}

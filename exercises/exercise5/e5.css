@@ -1,0 +1,23 @@
+/*Main SetUp*/
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-size: 14px;
+	background-color: #eeeeee;
+	text-align: center;
+}
+
+
+/*Text SetUp*/
+h1 {
+	text-align: center;
+}
+
+/*Image SetUp*/
+img {
+	width: 80%;
+	height: 80%;
+}
