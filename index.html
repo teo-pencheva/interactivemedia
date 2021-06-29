@@ -1,10 +1,69 @@
+<!-- Index by Teodora Pencheva -->
+
+<!-- REFERENCES -->
+<!-- (1) https://html.com/images/how-to-make-an-image-map/ -->
+<!-- https://www.w3schools.com/tags/tag_map.asp -->
+<!-- 	This helped me figure out how to create an image map -->
+
+<!-- (2) https://stackoverflow.com/questions/13321067/dynamically-resizing-image-maps-and-images -->
+<!-- https://github.com/davidjbradshaw/image-map-resizer -->
+<!-- https://raw.githubusercontent.com/davidjbradshaw/imagemap-resizer/master/js/imageMapResizer.min.js -->
+<!-- 	These helped me find a library that would resize my image map dynamically -->
+
+
+
 <!DOCTYPE html>
 
 <html lang="en">
-  <head>
-  <title>Index</title>
-  </head>
-  <body>
-    <h1>Welcome!</h1>
-  </body>
+	<head>
+		<title>Index</title>
+		<!-- Linking CSS and JS Files -->
+		<link rel="stylesheet" href="index.css">
+		<link rel="stylesheet" href="indexTypeface.css">
+
+		<!-- CSS Fonts -->
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Teko&display=swap" rel="stylesheet">
+		
+		<!-- JQuery Libraries -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+		<link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+		<script type="text/javascript" src="libraries/imageMapResizer.js"></script> <!-- (2) -->
+		<script src="libraries/particles.min.js"></script>
+	</head>
+
+	<body>
+		<div id="particles-js"></div>
+
+		<div class="container">
+			<div class="circle">
+				<div class="grid-1"></div>
+
+				<div class="grid-2">
+					<div class="item group-4"> 
+						<button id="exit">X</button> 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<h1 id="course">Interactive<br> Media:<br> Web</h1>
+		<h1 id="name">Teodora<br> Pencheva</h1>
+
+		<div class="handHolder">
+			<img id="hand" src="images/handF.png" usemap="#fingers">	
+		</div>
+
+
+		<map name="fingers"> <!-- (1) --> <!-- (2) -->
+			<area class="thumb" shape="poly" coords="691,535, 691,519, 715,514, 731,521, 757,555, 775,587, 785,627, 787,691, 790,701, 781,713, 752,725, 708,727, 706,615, 703,581" href="#"/>
+			<area class="fore" shape="poly" coords="881,613, 907,549, 985,396, 997,387, 1012,381, 1024,384, 1032,396, 1031,407, 982,550, 953,631" href="#"/>
+			<area class="middle" shape="poly" coords="969,647, 1052,517, 1122,425, 1131,418, 1161,417, 1172,428, 1172,441, 1154,476, 1081,608, 1033,684" href="#"/>
+			<area class="ring" shape="poly" coords="1042,692, 1118,597, 1182,506, 1190,499, 1219,498, 1227,505, 1229,521, 1222,544, 1162,636, 1086,751" href="#"/>
+			<area class="pinky" shape="poly" coords="1103,777, 1130,760, 1256,672, 1288,667, 1300,674, 1300,693, 1291,707, 1148,821" href="#"/>
+		</map>
+	</body>
+	<script src="index.js"></script>
 </html>

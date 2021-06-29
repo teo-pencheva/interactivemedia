@@ -1,0 +1,68 @@
+/*Interective Elements Process by Teodora Pencheva*/
+
+* { 
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 100px;
+    font-size: 12px; 
+    text-align: center;
+}
+
+/* Start of text sizes */
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 3em;
+}
+p {
+    font-size: 2em;
+    line-height: 1.5em;
+    text-align: left;
+}
+a {
+    font-size: 1.25em;
+    text-align: left;
+}
+/* End of text sizes */
+
+
+/* Start of spacing and layout */
+h2, p, figure, a {
+    margin-bottom: 40px;
+}
+img {
+    margin-bottom: 50px;
+}
+
+.process {
+    width: 40%; /
+    margin: auto; 
+}
+.title {
+    margin-bottom: 100px; 
+}
+
+.section {
+    margin-bottom: 100px;
+}
+/* End of spacing and layout */
+
+
+@media (max-width: 991px) {
+    .process-template {
+        width: 60%;
+    }
+}
+
+@media (max-width:767px) {
+    body {
+        margin: 40px;
+        font-size: 10px;
+    }
+    .process-template {
+        width: 100%;
+    }
+}

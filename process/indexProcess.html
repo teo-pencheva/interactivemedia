@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+  	<meta name="viewport" content="width=device-width, initial-zoom:1.0">
+  	<meta charset="utf-8">
+    <title>Index Process</title>
+  </head>
+
+  <body>
+    <div class="process">
+        <!-- Start of title -->
+        <div class="title">
+            <h1>Index Process</h1>
+        </div>
+        <!-- End of title -->
+
+        <!-- Start of content -->
+        <div class="content">
+            <!-- Start of a section: IDEAS -->
+            <div class="section">
+                <h2>First of a Thousand</h2>
+                <p>
+                    When I began this project, I was in the midst of a burnout. It ended up taking me several days to figure out what my idea even was before I began this project. During that time, I went through many, many designs. The first major one I had was to implement a 3D object on the center of the page and have it always face towards the cursor. I had found some online websites like such, mostly spheres, that would react to the movement of the cursor. When considering what object I should use, I decided that I would do a set of dentures. Moreover, by clicking on the individual teeth, a tab would open of an assigned link. While the thought of reinstalling and dealing with Maya2020 was horrifying enough on its own, what stopped me from pursuing this idea was the fact that I did not have enough time to risk on the rendering time it would take to export a model, nor it’s leisurely animation.
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/planet.png" width="80%">
+                  <a href="https://renaudrohlinger.com/"><br>Image Source</a>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>More Inspiration</h2>
+                <p>
+                    While that plan fell through, the one thing that I decided to stick with was creating an image map. So, I went out searching for more inspiration. I realized that I really wanted to do a light on dark color scheme, since all my previous ones had a very pale, or white background. I knew I wanted to create my own images, although I wasn’t sure what exactly they would depict. I also didn’t want to do anything overly minimalistic.
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/ghost.jpg" width="45%">
+                  <img src="images/chairs.png" width="45%">
+                  <img src="images/palette.png" width="45%">
+                  <img src="images/phones.jpg" width="45%">
+                  <a href="https://art.branipick.com/der-astralmensch-the-astral-man-sascha-schneider-1903-1400-x-1227/"><br>Image Source</a>
+                  <a href="https://www.lot-art.com/auction-lots/Rolf-Kunitsch-geb-1935/24-rolf_kunitsch_1935-16.3.21-schneider"><br>Image Source</a>
+                  <a href="https://www.glazespectrum.com/?tile=Co_29"><br>Image Source</a>
+                  <a href="https://www.joemaloneyphotography.com/new-jersey/bv739t1rih0o2qb11bqxiozshmlpqq"><br>Image Source</a>
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>The Idea</h2>
+                <p>
+                    Still, I had nothing. I was trying to work faster each day, I still had to figure out what categories I could split my links into, and how to split an objects into those groups through the image map. It was at this point that I realized I had 5 main categories and my hand had five fingers. I saw it to be fitting, after all, I programmed most of my code with that hand.  I decided to create an image of my hand and display it at the bottom of the page reaching upwards at a circle outline that would transform into a larger shape containing my content and links. So I began to work.            
+                </p>
+
+                <h2>Process</h2>
+                <p>
+                    I drew a base image of my open hand, and five additional ones, for each bent finger. I figured out the coordinates for the image map and inputted the information into my html file. Moreover, when a finger is clicked, the picture changes accordingly so that the finger appears bent. I animated the circle to visually expand and become more rectangular. By the end, the page felt too empty, so I decided to add a particle library that would not only allow for the user to interact with them, but they would fall gently on their own. 
+                </p>
+                <!-- End of a section -->
+
+                <!-- Start of image with caption -->
+                <figure>
+                  <img src="images/art1.png" width="45%">
+                  <img src="images/art2.png" width="45%">
+                  <img src="images/final.png" width="65%">
+                </figure>
+                <!-- End of image with caption -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Problems</h2>
+                <p>
+                    I ran into a few problems while coding. First, the resizing map library did not work when I had to replace the base image with the finger bent ones. Whether I would remove and prepend the base image, or changed the css displays through jquery, once the window was resized before the container was closed, it wouldn’t work. I fixed this by hiding the base image with a separate larger picture matching the background color by prepending and removing it instead. There were also a lot of problems with the grid in the container, so I separated it into two separate grids side by side. Those were the biggest problems I encountered, the others were more of a hassle than anything, like prepending html information through jquery.  
+                </p>
+                <!-- End of a section -->
+            </div>
+            <!-- End of a new section -->
+
+            <!-- Start of a new section -->
+            <div class="section">
+                <h2>Final Thoughts</h2>
+                <p>
+                    All in all, I enjoyed creating this index just as I enjoyed doing this course.
+                </p>
+                <!-- End of a section -->
+            </div>
+            <!-- End of a new section -->
+        </div>
+        <!-- End of content -->
+    </div>
+  </body>
+</html>
